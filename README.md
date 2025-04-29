@@ -67,5 +67,17 @@ Unlike most predictive healthcare projects that rely on many features (like insu
 3. Open and run the notebook:
   ANN_Correct.ipynb using Jupyter Notebook or Google Colab.
 
+## Model Comparison
+
+| Aspect               | Baseline ANN Model (ANN.ipynb) | Advanced Models (ANN_Correct.ipynb) |
+|:---------------------|:-------------------------------|:------------------------------------|
+| Goal                  | Early exploration of glucose prediction with simple ANN | Improved glucose prediction with LSTM, GRU, and CNN |
+| Input Features        | Previous glucose readings only | Previous glucose readings only |
+| Architectures         | Basic feedforward ANN          | LSTM, GRU, 1D CNN, MLP |
+| Focus                 | Learning basic sequence modeling | Improving time-series forecasting with advanced architectures |
+| Performance           | Moderate MAE, low R² score     | Slightly better MAE, still low R² due to limited features |
+| Key Learning Outcome  | Importance of architecture depth and feature richness | Balancing model complexity with real-world healthcare constraints |
+
+
 Note:
 This project helped me move beyond just coding models, i noticed how important it was to combine technical skills with real-world problem-solving and critical judgment.
